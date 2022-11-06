@@ -13,7 +13,23 @@
       core-play-detail
 </template>
 <script>
-
+export default {
+  setup() {
+    const dom_root = document.getElementById('root')
+    onMounted(() => {
+      // 隐藏等待界面
+      /* inited.value = true
+      const dom_mask = document.getElementById('waiting-mask')
+      if (dom_mask) {
+        dom_mask.addEventListener('transitionend', () => {
+          dom_mask.parentNode.removeChild(dom_mask)
+        })
+        dom_mask.classList.add('hide')
+      } */
+      dom_root.style.display = 'block'
+    })
+  },
+}
 </script>
 <style lang="less">
 @import './assets/styles/index.less';
