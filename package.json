@@ -10,7 +10,7 @@
     "cheetah"
   ],
   "author": "chenhui",
-  "license": "APACHE LICENSE 2.0",
+  "license": "APACHE LICENSE",
   "browserslist": [
     "Electron 15.5.7"
   ],
