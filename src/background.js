@@ -63,6 +63,7 @@ app.on('ready', async () => {
     }
   }
   createWindow()
+  console.log('create window successfully!')
 })
 
 // Exit cleanly on request from parent process in development mode.

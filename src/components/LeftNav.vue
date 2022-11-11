@@ -1,5 +1,5 @@
 <template>
-    
+    <div>left nav</div>
 </template>
 <script>
     export default {

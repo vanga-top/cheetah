@@ -1,15 +1,17 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <LeftNav />
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import LeftNav from './components/LeftNav.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,LeftNav
   }
 }
 </script>
